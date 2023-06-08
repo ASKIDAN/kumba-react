@@ -1,5 +1,5 @@
 import React, {createContext, useCallback, useState} from 'react';
-import {StepStateType} from 'types';
+import {StepStateType} from 'common/types';
 
 interface StepContextProps {
   state: StepStateType;

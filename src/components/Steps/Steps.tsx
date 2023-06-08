@@ -1,8 +1,8 @@
 import React from 'react';
 import {Steps as StepsAntd} from 'antd';
-import {StepStateType} from 'types';
-import StepUser from './StepUser';
-import StepDate from './StepDate';
+import {StepStateType} from 'common/types';
+import StepUser from './StepUser/StepUser';
+import StepDate from './StepDate/StepDate';
 import styles from './Steps.module.css'
 
 interface StepsProps {

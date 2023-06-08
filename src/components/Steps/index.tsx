@@ -1,5 +1,5 @@
 import React, {useCallback, useContext, useMemo} from 'react';
-import {StepStateType} from 'types';
+import {StepStateType} from 'common/types';
 import StepContext, {StepContextProvider} from './Context';
 import Steps from './Steps';
 

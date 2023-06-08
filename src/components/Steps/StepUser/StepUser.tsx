@@ -1,8 +1,8 @@
 import React, {useCallback, useContext, useEffect, useMemo} from 'react';
 import {Button, Input, message} from 'antd';
-import {getUser} from 'api';
-import {StepStateType} from 'types';
-import StepContext from './Context';
+import {getUser} from 'common/api';
+import {StepStateType} from 'common/types';
+import StepContext from '../Context';
 import styles from './StepUser.module.css';
 
 type Keys = keyof Omit<StepStateType, 'step' | 'date'>;

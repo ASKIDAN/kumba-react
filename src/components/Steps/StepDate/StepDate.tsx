@@ -1,8 +1,8 @@
 import React, {useCallback, useContext, useMemo} from "react";
 import {Button, DatePicker, message} from 'antd'
-import {postDate} from 'api';
-import {StepStateType} from 'types';
-import StepContext from './Context';
+import {postDate} from 'common/api';
+import {StepStateType} from 'common/types';
+import StepContext from '../Context';
 import styles from './StepDate.module.css'
 
 interface StepDateProps {

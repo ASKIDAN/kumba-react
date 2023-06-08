@@ -1,4 +1,4 @@
-import {UserType} from 'types';
+import {UserType} from './types';
 
 const API_URL = process.env.REACT_APP_API_URL;
 function request<T>(path: string, method: 'GET' | 'POST', body?: any):Promise<T> {
